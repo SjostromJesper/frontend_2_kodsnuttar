@@ -12,9 +12,10 @@ class Vec{
         return new Vec(this.x - vector.x, this.y - vector.y);
     }
 
-    get length() {
+    length() {
         return {x: this.x, y: this.y}
     }
+
 }
 
 const vector1 = new Vec(5, 5);
